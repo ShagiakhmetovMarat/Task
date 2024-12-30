@@ -30,19 +30,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C32958642D1FD619003B5668 /* Test task */ = {
+		C32958642D1FD619003B5668 /* Task */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Test task";
+			path = Task;
 			sourceTree = "<group>";
 		};
-		C32958752D1FD61A003B5668 /* Test taskTests */ = {
+		C32958752D1FD61A003B5668 /* TaskTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Test taskTests";
+			path = TaskTests;
 			sourceTree = "<group>";
 		};
-		C329587F2D1FD61A003B5668 /* Test taskUITests */ = {
+		C329587F2D1FD61A003B5668 /* TaskUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Test taskUITests";
+			path = TaskUITests;
+			sourceTree = "<group>";
+		};
+		C32958912D1FD803003B5668 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C32958942D1FD806003B5668 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +85,11 @@
 		C32958592D1FD619003B5668 = {
 			isa = PBXGroup;
 			children = (
-				C32958642D1FD619003B5668 /* Test task */,
-				C32958752D1FD61A003B5668 /* Test taskTests */,
-				C329587F2D1FD61A003B5668 /* Test taskUITests */,
+				C32958642D1FD619003B5668 /* Task */,
+				C32958912D1FD803003B5668 /* Resources */,
+				C32958942D1FD806003B5668 /* Preview Content */,
+				C32958752D1FD61A003B5668 /* TaskTests */,
+				C329587F2D1FD61A003B5668 /* TaskUITests */,
 				C32958632D1FD619003B5668 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +120,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C32958642D1FD619003B5668 /* Test task */,
+				C32958642D1FD619003B5668 /* Task */,
+				C32958912D1FD803003B5668 /* Resources */,
+				C32958942D1FD806003B5668 /* Preview Content */,
 			);
 			name = "Test task";
 			packageProductDependencies = (
@@ -131,7 +145,7 @@
 				C32958742D1FD61A003B5668 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C32958752D1FD61A003B5668 /* Test taskTests */,
+				C32958752D1FD61A003B5668 /* TaskTests */,
 			);
 			name = "Test taskTests";
 			packageProductDependencies = (
@@ -154,7 +168,7 @@
 				C329587E2D1FD61A003B5668 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C329587F2D1FD61A003B5668 /* Test taskUITests */,
+				C329587F2D1FD61A003B5668 /* TaskUITests */,
 			);
 			name = "Test taskUITests";
 			packageProductDependencies = (
@@ -395,7 +409,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Task/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Task/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

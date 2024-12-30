@@ -1,13 +1,13 @@
 //
 //  ContentView.swift
-//  Test task
+//  Task
 //
 //  Created by Marat Shagiakhmetov on 28.12.2024.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct ListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ListView()
 }
