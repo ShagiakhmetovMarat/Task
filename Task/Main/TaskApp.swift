@@ -1,6 +1,6 @@
 //
 //  TaskApp.swift
-//  Test task
+//  Task
 //
 //  Created by Marat Shagiakhmetov on 28.12.2024.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 struct TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
         }
     }
 }

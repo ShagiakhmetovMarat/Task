@@ -7,15 +7,25 @@
 
 import SwiftUI
 
+extension UserDefaults {
+    var welcomeScreen: Bool {
+        get {
+            UserDefaults.standard.value(forKey: "welcomeScreen") as? Bool ?? true
+        }
+        
+        set {
+            UserDefaults.standard.setValue(newValue, forKey: "welcomeScreen")
+        }
+    }
+}
+
 struct ListView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if UserDefaults.standard.welcomeScreen {
+            WelcomeView()
+        } else {
+            MainListView()
         }
-        .padding()
     }
 }
 

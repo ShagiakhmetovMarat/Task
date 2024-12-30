@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C32958622D1FD619003B5668 /* Test task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C32958722D1FD61A003B5668 /* Test taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test taskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C329587C2D1FD61A003B5668 /* Test taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test taskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32958622D1FD619003B5668 /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32958722D1FD61A003B5668 /* TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C329587C2D1FD61A003B5668 /* TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,24 +35,14 @@
 			path = Task;
 			sourceTree = "<group>";
 		};
-		C32958752D1FD61A003B5668 /* TaskTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TaskTests;
-			sourceTree = "<group>";
-		};
-		C329587F2D1FD61A003B5668 /* TaskUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TaskUITests;
-			sourceTree = "<group>";
-		};
-		C32958912D1FD803003B5668 /* Resources */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		C32958942D1FD806003B5668 /* Preview Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C32958BF2D1FDB8B003B5668 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -86,10 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				C32958642D1FD619003B5668 /* Task */,
-				C32958912D1FD803003B5668 /* Resources */,
+				C32958BF2D1FDB8B003B5668 /* Resources */,
 				C32958942D1FD806003B5668 /* Preview Content */,
-				C32958752D1FD61A003B5668 /* TaskTests */,
-				C329587F2D1FD61A003B5668 /* TaskUITests */,
 				C32958632D1FD619003B5668 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +85,9 @@
 		C32958632D1FD619003B5668 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C32958622D1FD619003B5668 /* Test task.app */,
-				C32958722D1FD61A003B5668 /* Test taskTests.xctest */,
-				C329587C2D1FD61A003B5668 /* Test taskUITests.xctest */,
+				C32958622D1FD619003B5668 /* Task.app */,
+				C32958722D1FD61A003B5668 /* TaskTests.xctest */,
+				C329587C2D1FD61A003B5668 /* TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C32958612D1FD619003B5668 /* Test task */ = {
+		C32958612D1FD619003B5668 /* Task */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C32958862D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Test task" */;
+			buildConfigurationList = C32958862D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Task" */;
 			buildPhases = (
 				C329585E2D1FD619003B5668 /* Sources */,
 				C329585F2D1FD619003B5668 /* Frameworks */,
@@ -121,19 +109,19 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C32958642D1FD619003B5668 /* Task */,
-				C32958912D1FD803003B5668 /* Resources */,
 				C32958942D1FD806003B5668 /* Preview Content */,
+				C32958BF2D1FDB8B003B5668 /* Resources */,
 			);
-			name = "Test task";
+			name = Task;
 			packageProductDependencies = (
 			);
 			productName = "Test task";
-			productReference = C32958622D1FD619003B5668 /* Test task.app */;
+			productReference = C32958622D1FD619003B5668 /* Task.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C32958712D1FD61A003B5668 /* Test taskTests */ = {
+		C32958712D1FD61A003B5668 /* TaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C32958892D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Test taskTests" */;
+			buildConfigurationList = C32958892D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "TaskTests" */;
 			buildPhases = (
 				C329586E2D1FD61A003B5668 /* Sources */,
 				C329586F2D1FD61A003B5668 /* Frameworks */,
@@ -144,19 +132,16 @@
 			dependencies = (
 				C32958742D1FD61A003B5668 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C32958752D1FD61A003B5668 /* TaskTests */,
-			);
-			name = "Test taskTests";
+			name = TaskTests;
 			packageProductDependencies = (
 			);
 			productName = "Test taskTests";
-			productReference = C32958722D1FD61A003B5668 /* Test taskTests.xctest */;
+			productReference = C32958722D1FD61A003B5668 /* TaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C329587B2D1FD61A003B5668 /* Test taskUITests */ = {
+		C329587B2D1FD61A003B5668 /* TaskUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C329588C2D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Test taskUITests" */;
+			buildConfigurationList = C329588C2D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "TaskUITests" */;
 			buildPhases = (
 				C32958782D1FD61A003B5668 /* Sources */,
 				C32958792D1FD61A003B5668 /* Frameworks */,
@@ -167,14 +152,11 @@
 			dependencies = (
 				C329587E2D1FD61A003B5668 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C329587F2D1FD61A003B5668 /* TaskUITests */,
-			);
-			name = "Test taskUITests";
+			name = TaskUITests;
 			packageProductDependencies = (
 			);
 			productName = "Test taskUITests";
-			productReference = C329587C2D1FD61A003B5668 /* Test taskUITests.xctest */;
+			productReference = C329587C2D1FD61A003B5668 /* TaskUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C329585D2D1FD619003B5668 /* Build configuration list for PBXProject "Test task" */;
+			buildConfigurationList = C329585D2D1FD619003B5668 /* Build configuration list for PBXProject "Task" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -214,9 +196,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C32958612D1FD619003B5668 /* Test task */,
-				C32958712D1FD61A003B5668 /* Test taskTests */,
-				C329587B2D1FD61A003B5668 /* Test taskUITests */,
+				C32958612D1FD619003B5668 /* Task */,
+				C32958712D1FD61A003B5668 /* TaskTests */,
+				C329587B2D1FD61A003B5668 /* TaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,12 +254,12 @@
 /* Begin PBXTargetDependency section */
 		C32958742D1FD61A003B5668 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C32958612D1FD619003B5668 /* Test task */;
+			target = C32958612D1FD619003B5668 /* Task */;
 			targetProxy = C32958732D1FD61A003B5668 /* PBXContainerItemProxy */;
 		};
 		C329587E2D1FD61A003B5668 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C32958612D1FD619003B5668 /* Test task */;
+			target = C32958612D1FD619003B5668 /* Task */;
 			targetProxy = C329587D2D1FD61A003B5668 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,14 +391,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,14 +419,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +454,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test task";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task";
 			};
 			name = Debug;
 		};
@@ -490,7 +472,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test task";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task";
 			};
 			name = Release;
 		};
@@ -529,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C329585D2D1FD619003B5668 /* Build configuration list for PBXProject "Test task" */ = {
+		C329585D2D1FD619003B5668 /* Build configuration list for PBXProject "Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C32958842D1FD61A003B5668 /* Debug */,
@@ -538,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C32958862D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Test task" */ = {
+		C32958862D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C32958872D1FD61A003B5668 /* Debug */,
@@ -547,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C32958892D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Test taskTests" */ = {
+		C32958892D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "TaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C329588A2D1FD61A003B5668 /* Debug */,
@@ -556,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C329588C2D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "Test taskUITests" */ = {
+		C329588C2D1FD61A003B5668 /* Build configuration list for PBXNativeTarget "TaskUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C329588D2D1FD61A003B5668 /* Debug */,
